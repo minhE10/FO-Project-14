@@ -26,7 +26,6 @@ for c in range(1, N + 1):
 class_total_duration.sort()
 
 assignments = []
-assigned_classes = set()
 
 for _, c in class_total_duration:
     for s in class_subjects[c]:
